@@ -2,6 +2,10 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
+using PaymentService_5._0.Models;
+using RabbitMQ.Client;
+using Stripe;
+using Stripe.Checkout;
 
 namespace PaymentService_5._0.Controllers
 {
